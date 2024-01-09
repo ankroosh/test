@@ -1,0 +1,21 @@
+### Common ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+__pypackages__/
+*.DS_Store
+Thumbs.db
+
+### PyCharm ###
+.idea
+### Environments ###
+*.env
+### Project ###
+# prod
+backend/staticfiles/*
+backend/nginx_logs/*
+db_data/*
+# dev
+dev_db_data/*
+todo.txt
